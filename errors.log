@@ -1,0 +1,1381 @@
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[WARNING]: prerequisites.py is experimental and does not support all prerequisites yet.
+[WARNING]: Please report any issues to the python-for-android issue tracker.
+[1m[INFO][0m:    Will compile for the following archs: arm64-v8a, armeabi-v7a
+[1m[INFO][0m:    Found Android API target in $ANDROIDAPI: 31
+[1m[INFO][0m:    Available Android APIs are (31)
+[1m[INFO][0m:    Requested API target 31 is available, continuing.
+[1m[INFO][0m:    Found NDK dir in $ANDROIDNDK: /home/kali/.buildozer/android/platform/android-ndk-r25b
+[1m[INFO][0m:    Found NDK version 25b
+[1m[INFO][0m:    Getting NDK API version (i.e. minimum supported API) from user argument
+[1m[INFO][0m:    ccache is missing, the build will not be optimized in the future.
+[1m[90m[DEBUG][39m[0m:   All possible dists: []
+[1m[90m[DEBUG][39m[0m:   Dist matching name and arch: []
+[1m[90m[DEBUG][39m[0m:   Dist matching ndk_api and recipe: []
+[1m[INFO][0m:    No existing dists meet the given requirements!
+[1m[90m[DEBUG][39m[0m:   Remove directory and subdirectory /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/dists/e59Event
+[1m[INFO][0m:    [1m[94mNo dist exists that meets your requirements, so one will be built.[0m
+[1m[INFO][0m:    Found a single valid recipe set: ['freetype', 'hostpython3', 'jpeg', 'libffi', 'libiconv', 'openssl', 'plyer', 'png', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'libzbar', 'python3', 'sdl2', 'setuptools', 'pillow', 'pyzbar', 'six', 'pyjnius', 'android', 'kivy']
+[1m[INFO][0m:    The selected bootstrap is sdl2
+[1m[INFO][0m:    [1m[32m# Creating dist with sdl2 bootstrap[0m[39m
+[1m[INFO][0m:    [1m[94mDist will have name e59Event and requirements (python3, kivy, plyer, pyzbar, Pillow)[0m
+[1m[INFO][0m:    Dist contains the following requirements as recipes: ['freetype', 'hostpython3', 'jpeg', 'libffi', 'libiconv', 'openssl', 'png', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'libzbar', 'python3', 'sdl2', 'setuptools', 'pillow', 'pyzbar', 'six', 'pyjnius', 'android', 'kivy']
+[1m[INFO][0m:    Dist will also contain modules (chardet, plyer, idna, certifi, urllib3, requests) installed from pip
+[1m[INFO][0m:    Dist will be build in mode debug
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2[39m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[90m[DEBUG][39m[0m:   Create directory /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/dists/e59Event
+[1m[INFO][0m:    [1m[94mRecipe build order is ['freetype', 'hostpython3', 'jpeg', 'libffi', 'libiconv', 'openssl', 'png', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'libzbar', 'python3', 'sdl2', 'setuptools', 'pillow', 'pyzbar', 'six', 'pyjnius', 'android', 'kivy'][0m
+[1m[INFO][0m:    [1m[94mThe requirements (certifi, chardet, idna, plyer, requests, urllib3) were not found as recipes, they will be installed with pip.[0m
+[1m[INFO][0m:    [1m[32m# Downloading recipes [0m[39m
+[1m[INFO][0m:    [1m[32mDownloading freetype[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/freetype[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://download.savannah.gnu.org/releases/freetype/freetype-2.10.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	freetype-2.10.1.tar.gz
+[1m[INFO][0m:    freetype download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading hostpython3[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/hostpython3[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    hostpython3 download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading jpeg[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/jpeg[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	2.0.1.tar.gz
+[1m[INFO][0m:    jpeg download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading libffi[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/libffi[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libffi/libffi/archive/v3.4.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v3.4.2.tar.gz
+[1m[INFO][0m:    libffi download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading libiconv[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/libiconv[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	libiconv-1.16.tar.gz
+[1m[INFO][0m:    libiconv download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading openssl[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/openssl[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.openssl.org/source/openssl-1.1.1w.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	openssl-1.1.1w.tar.gz
+[1m[INFO][0m:    openssl download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading png[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/png[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/glennrp/libpng/archive/v1.6.37.zip[0m
+[1m[90m[DEBUG][39m[0m:   	v1.6.37.zip
+[1m[INFO][0m:    png download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading sdl2_image[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/sdl2_image[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.0/SDL2_image-2.8.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_image-2.8.0.tar.gz
+[1m[INFO][0m:    sdl2_image download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading sdl2_mixer[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/sdl2_mixer[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.6.3/SDL2_mixer-2.6.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_mixer-2.6.3.tar.gz
+[1m[INFO][0m:    sdl2_mixer download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading sdl2_ttf[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/sdl2_ttf[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.20.2/SDL2_ttf-2.20.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_ttf-2.20.2.tar.gz
+[1m[INFO][0m:    sdl2_ttf download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading sqlite3[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/sqlite3[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.sqlite.org/2021/sqlite-amalgamation-3350500.zip[0m
+[1m[90m[DEBUG][39m[0m:   	sqlite-amalgamation-3350500.zip
+[1m[INFO][0m:    sqlite3 download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading libzbar[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/libzbar[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/ZBar/ZBar/archive/0.10.zip[0m
+[1m[90m[DEBUG][39m[0m:   	0.10.zip
+[1m[INFO][0m:    libzbar download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading python3[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/python3[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    python3 download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading sdl2[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/sdl2[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-2.28.5.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2-2.28.5.tar.gz
+[1m[INFO][0m:    sdl2 download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading setuptools[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/setuptools[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/setuptools/setuptools-51.3.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	setuptools-51.3.3.tar.gz
+[1m[INFO][0m:    setuptools download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading Pillow[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/Pillow[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/python-pillow/Pillow/archive/8.4.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	8.4.0.tar.gz
+[1m[INFO][0m:    Pillow download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading pyzbar[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/pyzbar[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/NaturalHistoryMuseum/pyzbar/archive/v0.1.7.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v0.1.7.tar.gz
+[1m[INFO][0m:    pyzbar download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading six[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/six[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/six/six-1.15.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	six-1.15.0.tar.gz
+[1m[INFO][0m:    six download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading pyjnius[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/pyjnius[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/pyjnius/archive/1.6.1.zip[0m
+[1m[90m[DEBUG][39m[0m:   	1.6.1.zip
+[1m[INFO][0m:    pyjnius download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mDownloading android[0m[39m
+[1m[INFO][0m:    Skipping android download as no URL is set
+[1m[INFO][0m:    [1m[32mDownloading kivy[0m[39m
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/packages/kivy[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/kivy/archive/2.3.0.zip[0m
+[1m[90m[DEBUG][39m[0m:   	2.3.0.zip
+[1m[INFO][0m:    kivy download already cached, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32m# Building all recipes for arch arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32m# Unpacking recipes[0m[39m
+[1m[INFO][0m:    [1m[32mUnpacking freetype for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://download.savannah.gnu.org/releases/freetype/freetype-2.10.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	freetype-2.10.1.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    freetype is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking hostpython3 for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop[39m
+[1m[INFO][0m:    hostpython3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking jpeg for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	2.0.1.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    jpeg is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libffi for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libffi/libffi/archive/v3.4.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v3.4.2.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    libffi is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libiconv for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	libiconv-1.16.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libiconv/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    libiconv is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking openssl for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.openssl.org/source/openssl-1.1.1w.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	openssl-1.1.1w.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    openssl is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking png for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/glennrp/libpng/archive/v1.6.37.zip[0m
+[1m[90m[DEBUG][39m[0m:   	v1.6.37.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    png is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_image for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.0/SDL2_image-2.8.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_image-2.8.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_image is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_mixer for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.6.3/SDL2_mixer-2.6.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_mixer-2.6.3.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_mixer is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_ttf for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.20.2/SDL2_ttf-2.20.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_ttf-2.20.2.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_ttf is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sqlite3 for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.sqlite.org/2021/sqlite-amalgamation-3350500.zip[0m
+[1m[90m[DEBUG][39m[0m:   	sqlite-amalgamation-3350500.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    sqlite3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libzbar for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/ZBar/ZBar/archive/0.10.zip[0m
+[1m[90m[DEBUG][39m[0m:   	0.10.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libzbar/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    libzbar is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking python3 for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    python3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2 for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-2.28.5.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2-2.28.5.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking setuptools for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/setuptools/setuptools-51.3.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	setuptools-51.3.3.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    setuptools is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking Pillow for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/python-pillow/Pillow/archive/8.4.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	8.4.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    Pillow is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking pyzbar for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/NaturalHistoryMuseum/pyzbar/archive/v0.1.7.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v0.1.7.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyzbar/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    pyzbar is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking six for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/six/six-1.15.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	six-1.15.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/six/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    six is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking pyjnius for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/pyjnius/archive/1.6.1.zip[0m
+[1m[90m[DEBUG][39m[0m:   	1.6.1.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    pyjnius is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[90m[DEBUG][39m[0m:   Remove directory and subdirectory /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/arm64-v8a__ndk_target_21/android
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/android/src /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/arm64-v8a__ndk_target_21/android[0m
+[1m[INFO][0m:    [1m[32mUnpacking kivy for arm64-v8a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/kivy/archive/2.3.0.zip[0m
+[1m[90m[DEBUG][39m[0m:   	2.3.0.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy/arm64-v8a__ndk_target_21[39m
+[1m[INFO][0m:    kivy is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32m# Prebuilding recipes[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding freetype for arm64-v8a[0m[39m
+[1m[INFO][0m:    freetype has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding hostpython3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    hostpython3 has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for hostpython3[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mhostpython3 already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding jpeg for arm64-v8a[0m[39m
+[1m[INFO][0m:    jpeg has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding libffi for arm64-v8a[0m[39m
+[1m[INFO][0m:    libffi has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for libffi[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mlibffi already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding libiconv for arm64-v8a[0m[39m
+[1m[INFO][0m:    libiconv has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding openssl for arm64-v8a[0m[39m
+[1m[INFO][0m:    openssl has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding png for arm64-v8a[0m[39m
+[1m[INFO][0m:    png has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_image for arm64-v8a[0m[39m
+[1m[INFO][0m:    sdl2_image has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for sdl2_image[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32msdl2_image already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_mixer for arm64-v8a[0m[39m
+[1m[INFO][0m:    sdl2_mixer has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_ttf for arm64-v8a[0m[39m
+[1m[INFO][0m:    sdl2_ttf has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sqlite3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    sqlite3 has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding libzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    libzbar has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for libzbar[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mlibzbar already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding python3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    python3 has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for python3[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mpython3 already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2 for arm64-v8a[0m[39m
+[1m[INFO][0m:    sdl2 has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding setuptools for arm64-v8a[0m[39m
+[1m[INFO][0m:    setuptools has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding Pillow for arm64-v8a[0m[39m
+[1m[INFO][0m:    Pillow has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for Pillow[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mPillow already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding pyzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    pyzbar has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding six for arm64-v8a[0m[39m
+[1m[INFO][0m:    six has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding pyjnius for arm64-v8a[0m[39m
+[1m[INFO][0m:    pyjnius has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for pyjnius[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mpyjnius already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding android for arm64-v8a[0m[39m
+[1m[INFO][0m:    android has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/arm64-v8a__ndk_target_21/android[39m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mPrebuilding kivy for arm64-v8a[0m[39m
+[1m[INFO][0m:    kivy has no prebuild_arm64_v8a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for kivy[arm64-v8a][0m[39m
+[1m[INFO][0m:    [1m[32mkivy already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32m# Building recipes[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding freetype for arm64-v8a[0m[39m
+[1m[INFO][0m:    freetype said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/objs/.libs/libfreetype.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding hostpython3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    hostpython3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding jpeg for arm64-v8a[0m[39m
+[1m[INFO][0m:    jpeg said it is already built, skipping
+[1m[31m[WARNING][39m[0m: install_libs called with no libraries to install!
+[1m[INFO][0m:    [1m[32mBuilding libffi for arm64-v8a[0m[39m
+[1m[INFO][0m:    libffi said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs/libffi.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding libiconv for arm64-v8a[0m[39m
+[1m[INFO][0m:    libiconv said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libiconv/arm64-v8a__ndk_target_21/libiconv/lib/.libs/libiconv.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding openssl for arm64-v8a[0m[39m
+[1m[INFO][0m:    openssl said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/libssl1.1.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/libcrypto1.1.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding png for arm64-v8a[0m[39m
+[1m[INFO][0m:    png said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png/.libs/libpng16.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_image for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_mixer for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_ttf for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sqlite3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    sqlite3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding libzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    libzbar said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libzbar/arm64-v8a__ndk_target_21/libzbar/zbar/.libs/libzbar.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a[0m
+[1m[INFO][0m:    [1m[32mBuilding python3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    python3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding sdl2 for arm64-v8a[0m[39m
+[1m[INFO][0m:    sdl2 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding setuptools for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    setuptools said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding Pillow for arm64-v8a[0m[39m
+[1m[INFO][0m:    Pillow apparently isn't already in site-packages
+[1m[INFO][0m:    Building compiled components in Pillow
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/arm64-v8a__ndk_target_21/Pillow[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python3 setup.py build_ext -v[0m
+[1m[90m[DEBUG][39m[0m:   	running build_ext
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/android-build
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/objs/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21
+[1m[90m[DEBUG][39m[0m:   	Looking for zlib
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Found zlib.h
+[1m[90m[DEBUG][39m[0m:   	Found library z at /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/libz.so
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Found jpeglib.h
+[1m[90m[DEBUG][39m[0m:   	Found library jpeg at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/libjpeg.a
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg2000
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for imagequant
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for tiff
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for freetype
+[1m[90m[DEBUG][39m[0m:   	Found library freetype at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a/libfreetype.so
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Found ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Looking for Raqm
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for lcms
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webp
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webpmux
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for xcb
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	PIL SETUP SUMMARY
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	version      Pillow 8.4.0
+[1m[90m[DEBUG][39m[0m:   	platform     linux 3.11.5 (main, Sep 19 2024, 22:46:40)
+[1m[90m[DEBUG][39m[0m:   	             [GCC 13.2.0]
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	--- JPEG support available
+[1m[90m[DEBUG][39m[0m:   	*** OPENJPEG (JPEG2000) support not available
+[1m[90m[DEBUG][39m[0m:   	--- ZLIB (PNG/ZIP) support available
+[1m[90m[DEBUG][39m[0m:   	*** LIBIMAGEQUANT support not available
+[1m[90m[DEBUG][39m[0m:   	*** LIBTIFF support not available
+[1m[90m[DEBUG][39m[0m:   	--- FREETYPE2 support available
+[1m[90m[DEBUG][39m[0m:   	*** RAQM (Text shaping) support not available
+[1m[90m[DEBUG][39m[0m:   	*** LITTLECMS2 support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBP support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBPMUX support not available
+[1m[90m[DEBUG][39m[0m:   	*** XCB (X protocol) support not available
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	To add a missing option, make sure you have the required
+[1m[90m[DEBUG][39m[0m:   	library and headers.
+[1m[90m[DEBUG][39m[0m:   	See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	To check the build, run the selftest.py script.
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running find build/lib.linux-x86_64-3.11 -name "*.o" -exec /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded {} ;[0m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    Installing Pillow into site-packages
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/arm64-v8a__ndk_target_21/Pillow[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python3 setup.py install -O2 --root=/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/arm64-v8a --install-lib=.[0m
+[1m[90m[DEBUG][39m[0m:   	running install
+[1m[90m[DEBUG][39m[0m:   	running build
+[1m[90m[DEBUG][39m[0m:   	running build_py
+[1m[90m[DEBUG][39m[0m:   	running egg_info
+[1m[90m[DEBUG][39m[0m:   	writing src/Pillow.egg-info/PKG-INFO
+[1m[90m[DEBUG][39m[0m:   	writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+[1m[90m[DEBUG][39m[0m:   	writing top-level names to src/Pillow.egg-info/top_level.txt
+[1m[90m[DEBUG][39m[0m:   	reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+[1m[90m[DEBUG][39m[0m:   	reading manifest template 'MANIFEST.in'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.c'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.h'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.sh'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.appveyor.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.clang-format'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.coveragerc'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.editorconfig'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.readthedocs.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching 'codecov.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '.git*' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '*.pyc' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '*.so' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	no previously-included directories found matching '.ci'
+[1m[90m[DEBUG][39m[0m:   	writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+[1m[90m[DEBUG][39m[0m:   	running build_ext
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/android-build
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/objs/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21
+[1m[90m[DEBUG][39m[0m:   	Looking for zlib
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Found zlib.h
+[1m[90m[DEBUG][39m[0m:   	Found library z at /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/libz.so
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Found jpeglib.h
+[1m[90m[DEBUG][39m[0m:   	Found library jpeg at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg/libjpeg.a
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg2000
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for imagequant
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for tiff
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for freetype
+[1m[90m[DEBUG][39m[0m:   	Found library freetype at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/arm64-v8a/libfreetype.so
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Found ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Looking for Raqm
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for lcms
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webp
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webpmux
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for xcb
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/arm64-v8a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/arm64-v8a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	PIL SETUP SUMMARY
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	version      Pillow 8.4.0
+[1m[90m[DEBUG][39m[0m:   	platform     linux 3.11.5 (main, Sep 19 2024, 22:46:40)
+[1m[90m[DEBUG][39m[0m:   	             [GCC 13.2.0]
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	--- JPEG support available
+[1m[90m[DEBUG][39m[0m:   	*** OPENJPEG (JPEG2000) support not available
+[1m[90m[DEBUG][39m[0m:   	--- ZLIB (PNG/ZIP) support available
+[1m[90m[DEBUG][39m[0m:   	*** LIBIMAGEQUANT support not available
+[1m[90m[DEBUG][39m[0m:   	*** LIBTIFF support not available
+[1m[90m[DEBUG][39m[0m:   	--- FREETYPE2 support available
+[1m[90m[DEBUG][39m[0m:   	*** RAQM (Text shaping) support not available
+[1m[90m[DEBUG][39m[0m:   	*** LITTLECMS2 support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBP support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBPMUX support not available
+[1m[90m[DEBUG][39m[0m:   	*** XCB (X protocol) support not available
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	To add a missing option, make sure you have the required
+[1m[90m[DEBUG][39m[0m:   	library and headers.
+[1m[90m[DEBUG][39m[0m:   	See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	To check the build, run the selftest.py script.
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	running install_lib
+[1m[90m[DEBUG][39m[0m:   	writing byte-compilation script '/tmp/tmp4ca35522.py'
+[1m[90m[DEBUG][39m[0m:   	/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 -Wignore:The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives:DeprecationWarning /tmp/tmp4ca35522.py
+[1m[90m[DEBUG][39m[0m:   	removing /tmp/tmp4ca35522.py
+[1m[90m[DEBUG][39m[0m:   	running install_egg_info
+[1m[90m[DEBUG][39m[0m:   	removing '/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/arm64-v8a/./Pillow-8.4.0-py3.11.egg-info' (and everything under it)
+[1m[90m[DEBUG][39m[0m:   	Copying src/Pillow.egg-info to /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/arm64-v8a/./Pillow-8.4.0-py3.11.egg-info
+[1m[90m[DEBUG][39m[0m:   	running install_scripts
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mBuilding pyzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    pyzbar said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding six for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    six said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding pyjnius for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    pyjnius said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding android for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    android said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding kivy for arm64-v8a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    kivy said it is already built, skipping
+[1m[INFO][0m:    [1m[32m# Biglinking object files[0m[39m
+[1m[31m[WARNING][39m[0m: Context's python recipe found, skipping biglink (will this work?)
+[1m[INFO][0m:    [1m[32m# Postbuilding recipes[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding freetype for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding hostpython3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding jpeg for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libffi for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libiconv for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding openssl for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding png for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_image for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_mixer for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_ttf for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sqlite3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding python3 for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2 for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding setuptools for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding Pillow for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding pyzbar for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding six for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding pyjnius for arm64-v8a[0m[39m
+[1m[INFO][0m:    Copying pyjnius java class to classes build dir
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/arm64-v8a__ndk_target_21/pyjnius[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a jnius/src/org /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/javaclasses/e59Event[0m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mPostbuilding android for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding kivy for arm64-v8a[0m[39m
+[1m[INFO][0m:    [1m[32m# Building all recipes for arch armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32m# Unpacking recipes[0m[39m
+[1m[INFO][0m:    [1m[32mUnpacking freetype for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://download.savannah.gnu.org/releases/freetype/freetype-2.10.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	freetype-2.10.1.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    freetype is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking hostpython3 for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop[39m
+[1m[INFO][0m:    hostpython3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking jpeg for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.1.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	2.0.1.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    jpeg is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libffi for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libffi/libffi/archive/v3.4.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v3.4.2.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    libffi is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libiconv for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	libiconv-1.16.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libiconv/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    libiconv is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking openssl for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.openssl.org/source/openssl-1.1.1w.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	openssl-1.1.1w.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    openssl is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking png for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/glennrp/libpng/archive/v1.6.37.zip[0m
+[1m[90m[DEBUG][39m[0m:   	v1.6.37.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    png is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_image for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.0/SDL2_image-2.8.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_image-2.8.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_image is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_mixer for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.6.3/SDL2_mixer-2.6.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_mixer-2.6.3.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_mixer is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2_ttf for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.20.2/SDL2_ttf-2.20.2.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2_ttf-2.20.2.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2_ttf is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sqlite3 for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.sqlite.org/2021/sqlite-amalgamation-3350500.zip[0m
+[1m[90m[DEBUG][39m[0m:   	sqlite-amalgamation-3350500.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    sqlite3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking libzbar for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/ZBar/ZBar/archive/0.10.zip[0m
+[1m[90m[DEBUG][39m[0m:   	0.10.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libzbar/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    libzbar is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking python3 for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://www.python.org/ftp/python/3.11.5/Python-3.11.5.tgz[0m
+[1m[90m[DEBUG][39m[0m:   	Python-3.11.5.tgz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    python3 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking sdl2 for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-2.28.5.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	SDL2-2.28.5.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni[39m
+[1m[INFO][0m:    sdl2 is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking setuptools for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/setuptools/setuptools-51.3.3.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	setuptools-51.3.3.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    setuptools is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking Pillow for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/python-pillow/Pillow/archive/8.4.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	8.4.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    Pillow is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking pyzbar for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/NaturalHistoryMuseum/pyzbar/archive/v0.1.7.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	v0.1.7.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyzbar/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    pyzbar is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking six for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://pypi.python.org/packages/source/s/six/six-1.15.0.tar.gz[0m
+[1m[90m[DEBUG][39m[0m:   	six-1.15.0.tar.gz
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/six/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    six is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mUnpacking pyjnius for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/pyjnius/archive/1.6.1.zip[0m
+[1m[90m[DEBUG][39m[0m:   	1.6.1.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    pyjnius is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[90m[DEBUG][39m[0m:   Remove directory and subdirectory /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/armeabi-v7a__ndk_target_21/android
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/android/src /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/armeabi-v7a__ndk_target_21/android[0m
+[1m[INFO][0m:    [1m[32mUnpacking kivy for armeabi-v7a[0m[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running basename https://github.com/kivy/kivy/archive/2.3.0.zip[0m
+[1m[90m[DEBUG][39m[0m:   	2.3.0.zip
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy/armeabi-v7a__ndk_target_21[39m
+[1m[INFO][0m:    kivy is already unpacked, skipping
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32m# Prebuilding recipes[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding freetype for armeabi-v7a[0m[39m
+[1m[INFO][0m:    freetype has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding hostpython3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    hostpython3 has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for hostpython3[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mhostpython3 already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding jpeg for armeabi-v7a[0m[39m
+[1m[INFO][0m:    jpeg has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding libffi for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libffi has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for libffi[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mlibffi already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding libiconv for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libiconv has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding openssl for armeabi-v7a[0m[39m
+[1m[INFO][0m:    openssl has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding png for armeabi-v7a[0m[39m
+[1m[INFO][0m:    png has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_image for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sdl2_image has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for sdl2_image[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32msdl2_image already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_mixer for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sdl2_mixer has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2_ttf for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sdl2_ttf has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding sqlite3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sqlite3 has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding libzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libzbar has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for libzbar[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mlibzbar already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding python3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    python3 has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for python3[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mpython3 already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding sdl2 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sdl2 has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding setuptools for armeabi-v7a[0m[39m
+[1m[INFO][0m:    setuptools has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding Pillow for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Pillow has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for Pillow[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mPillow already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding pyzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    pyzbar has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding six for armeabi-v7a[0m[39m
+[1m[INFO][0m:    six has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mPrebuilding pyjnius for armeabi-v7a[0m[39m
+[1m[INFO][0m:    pyjnius has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for pyjnius[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mpyjnius already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32mPrebuilding android for armeabi-v7a[0m[39m
+[1m[INFO][0m:    android has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/android-sdl2/armeabi-v7a__ndk_target_21/android[39m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mPrebuilding kivy for armeabi-v7a[0m[39m
+[1m[INFO][0m:    kivy has no prebuild_armeabi_v7a, skipping
+[1m[INFO][0m:    [1m[32mApplying patches for kivy[armeabi-v7a][0m[39m
+[1m[INFO][0m:    [1m[32mkivy already patched, skipping[0m[39m
+[1m[INFO][0m:    [1m[32m# Building recipes[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding freetype for armeabi-v7a[0m[39m
+[1m[INFO][0m:    freetype said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/objs/.libs/libfreetype.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding hostpython3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    hostpython3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding jpeg for armeabi-v7a[0m[39m
+[1m[INFO][0m:    jpeg said it is already built, skipping
+[1m[31m[WARNING][39m[0m: install_libs called with no libraries to install!
+[1m[INFO][0m:    [1m[32mBuilding libffi for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libffi said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs/libffi.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding libiconv for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libiconv said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libiconv/armeabi-v7a__ndk_target_21/libiconv/lib/.libs/libiconv.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding openssl for armeabi-v7a[0m[39m
+[1m[INFO][0m:    openssl said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/libssl1.1.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/libcrypto1.1.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding png for armeabi-v7a[0m[39m
+[1m[INFO][0m:    png said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png/.libs/libpng16.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_image for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_mixer for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sdl2_ttf for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mBuilding sqlite3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sqlite3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding libzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    libzbar said it is already built, skipping
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libzbar/armeabi-v7a__ndk_target_21/libzbar/zbar/.libs/libzbar.so /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a[0m
+[1m[INFO][0m:    [1m[32mBuilding python3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    python3 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding sdl2 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    sdl2 said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding setuptools for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    setuptools said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding Pillow for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Pillow apparently isn't already in site-packages
+[1m[INFO][0m:    Building compiled components in Pillow
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/armeabi-v7a__ndk_target_21/Pillow[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python3 setup.py build_ext -v[0m
+[1m[90m[DEBUG][39m[0m:   	running build_ext
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/objs/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21
+[1m[90m[DEBUG][39m[0m:   	Looking for zlib
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Found zlib.h
+[1m[90m[DEBUG][39m[0m:   	Found library z at /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/libz.so
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Found jpeglib.h
+[1m[90m[DEBUG][39m[0m:   	Found library jpeg at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/libjpeg.a
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg2000
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for imagequant
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for tiff
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for freetype
+[1m[90m[DEBUG][39m[0m:   	Found library freetype at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a/libfreetype.so
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Found ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Looking for Raqm
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for lcms
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webp
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webpmux
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for xcb
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	PIL SETUP SUMMARY
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	version      Pillow 8.4.0
+[1m[90m[DEBUG][39m[0m:   	platform     linux 3.11.5 (main, Sep 19 2024, 22:46:40)
+[1m[90m[DEBUG][39m[0m:   	             [GCC 13.2.0]
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	--- JPEG support available
+[1m[90m[DEBUG][39m[0m:   	*** OPENJPEG (JPEG2000) support not available
+[1m[90m[DEBUG][39m[0m:   	--- ZLIB (PNG/ZIP) support available
+[1m[90m[DEBUG][39m[0m:   	*** LIBIMAGEQUANT support not available
+[1m[90m[DEBUG][39m[0m:   	*** LIBTIFF support not available
+[1m[90m[DEBUG][39m[0m:   	--- FREETYPE2 support available
+[1m[90m[DEBUG][39m[0m:   	*** RAQM (Text shaping) support not available
+[1m[90m[DEBUG][39m[0m:   	*** LITTLECMS2 support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBP support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBPMUX support not available
+[1m[90m[DEBUG][39m[0m:   	*** XCB (X protocol) support not available
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	To add a missing option, make sure you have the required
+[1m[90m[DEBUG][39m[0m:   	library and headers.
+[1m[90m[DEBUG][39m[0m:   	See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	To check the build, run the selftest.py script.
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running find build/lib.linux-x86_64-3.11 -name "*.o" -exec /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded {} ;[0m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    Installing Pillow into site-packages
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/Pillow/armeabi-v7a__ndk_target_21/Pillow[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python3 setup.py install -O2 --root=/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/armeabi-v7a --install-lib=.[0m
+[1m[90m[DEBUG][39m[0m:   	running install
+[1m[90m[DEBUG][39m[0m:   	running build
+[1m[90m[DEBUG][39m[0m:   	running build_py
+[1m[90m[DEBUG][39m[0m:   	running egg_info
+[1m[90m[DEBUG][39m[0m:   	writing src/Pillow.egg-info/PKG-INFO
+[1m[90m[DEBUG][39m[0m:   	writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+[1m[90m[DEBUG][39m[0m:   	writing top-level names to src/Pillow.egg-info/top_level.txt
+[1m[90m[DEBUG][39m[0m:   	reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+[1m[90m[DEBUG][39m[0m:   	reading manifest template 'MANIFEST.in'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.c'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.h'
+[1m[90m[DEBUG][39m[0m:   	warning: no files found matching '*.sh'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.appveyor.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.clang-format'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.coveragerc'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.editorconfig'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching '.readthedocs.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files found matching 'codecov.yml'
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '.git*' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '*.pyc' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	warning: no previously-included files matching '*.so' found anywhere in distribution
+[1m[90m[DEBUG][39m[0m:   	no previously-included directories found matching '.ci'
+[1m[90m[DEBUG][39m[0m:   	writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+[1m[90m[DEBUG][39m[0m:   	running build_ext
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/objs/.libs
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Appending path /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21
+[1m[90m[DEBUG][39m[0m:   	Looking for zlib
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file zlib.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Found zlib.h
+[1m[90m[DEBUG][39m[0m:   	Found library z at /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/libz.so
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file jpeglib.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Found jpeglib.h
+[1m[90m[DEBUG][39m[0m:   	Found library jpeg at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/libjpeg.a
+[1m[90m[DEBUG][39m[0m:   	Looking for jpeg2000
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for openjpeg-#.# in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for imagequant
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file libimagequant.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for tiff
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file tiff.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for freetype
+[1m[90m[DEBUG][39m[0m:   	Found library freetype at /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/e59Event/armeabi-v7a/libfreetype.so
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png/freetype2
+[1m[90m[DEBUG][39m[0m:   	Checking for include file ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Found ft2build.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Looking for Raqm
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file raqm.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for lcms
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file lcms2.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webp
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/encode.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for webpmux
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file webp/mux.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	Looking for xcb
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/png/armeabi-v7a__ndk_target_21/png
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include
+[1m[90m[DEBUG][39m[0m:   	Checking for include file xcb/xcb.h in /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	PIL SETUP SUMMARY
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	version      Pillow 8.4.0
+[1m[90m[DEBUG][39m[0m:   	platform     linux 3.11.5 (main, Sep 19 2024, 22:46:40)
+[1m[90m[DEBUG][39m[0m:   	             [GCC 13.2.0]
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	--- JPEG support available
+[1m[90m[DEBUG][39m[0m:   	*** OPENJPEG (JPEG2000) support not available
+[1m[90m[DEBUG][39m[0m:   	--- ZLIB (PNG/ZIP) support available
+[1m[90m[DEBUG][39m[0m:   	*** LIBIMAGEQUANT support not available
+[1m[90m[DEBUG][39m[0m:   	*** LIBTIFF support not available
+[1m[90m[DEBUG][39m[0m:   	--- FREETYPE2 support available
+[1m[90m[DEBUG][39m[0m:   	*** RAQM (Text shaping) support not available
+[1m[90m[DEBUG][39m[0m:   	*** LITTLECMS2 support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBP support not available
+[1m[90m[DEBUG][39m[0m:   	*** WEBPMUX support not available
+[1m[90m[DEBUG][39m[0m:   	*** XCB (X protocol) support not available
+[1m[90m[DEBUG][39m[0m:   	--------------------------------------------------------------------
+[1m[90m[DEBUG][39m[0m:   	To add a missing option, make sure you have the required
+[1m[90m[DEBUG][39m[0m:   	library and headers.
+[1m[90m[DEBUG][39m[0m:   	See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	To check the build, run the selftest.py script.
+[1m[90m[DEBUG][39m[0m:   	
+[1m[90m[DEBUG][39m[0m:   	running install_lib
+[1m[90m[DEBUG][39m[0m:   	writing byte-compilation script '/tmp/tmpsxm0nizt.py'
+[1m[90m[DEBUG][39m[0m:   	/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 -Wignore:The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives:DeprecationWarning /tmp/tmpsxm0nizt.py
+[1m[90m[DEBUG][39m[0m:   	removing /tmp/tmpsxm0nizt.py
+[1m[90m[DEBUG][39m[0m:   	running install_egg_info
+[1m[90m[DEBUG][39m[0m:   	removing '/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/armeabi-v7a/./Pillow-8.4.0-py3.11.egg-info' (and everything under it)
+[1m[90m[DEBUG][39m[0m:   	Copying src/Pillow.egg-info to /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/e59Event/armeabi-v7a/./Pillow-8.4.0-py3.11.egg-info
+[1m[90m[DEBUG][39m[0m:   	running install_scripts
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mBuilding pyzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    pyzbar said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding six for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    six said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding pyjnius for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    pyjnius said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding android for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    android said it is already built, skipping
+[1m[INFO][0m:    [1m[32mBuilding kivy for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Python package already exists in site-packages
+[1m[INFO][0m:    kivy said it is already built, skipping
+[1m[INFO][0m:    [1m[32m# Biglinking object files[0m[39m
+[1m[31m[WARNING][39m[0m: Context's python recipe found, skipping biglink (will this work?)
+[1m[INFO][0m:    [1m[32m# Postbuilding recipes[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding freetype for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding hostpython3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding jpeg for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libffi for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libiconv for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding openssl for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding png for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_image for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_mixer for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_ttf for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sqlite3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding python3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding setuptools for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding Pillow for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding pyzbar for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding six for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding pyjnius for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Copying pyjnius java class to classes build dir
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_21/pyjnius[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a jnius/src/org /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/javaclasses/e59Event[0m
+[1m[INFO][0m:    [36m<- directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mPostbuilding android for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding kivy for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32m# Installing pure Python modules[0m[39m
+[1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
+[1m[INFO][0m:    The requirements (certifi, chardet, idna, plyer, requests, urllib3) don't have recipes, attempting to install them with pip
+[1m[INFO][0m:    If this fails, it may mean that the module has compiled components and needs a recipe.
+[1m[INFO][0m:    [36m-> directory context /home/kali/CODE/E59_eventHandler/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build[39m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python3 -m venv venv[0m
+[1m[INFO][0m:    Upgrade pip to latest version
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c source venv/bin/activate && pip install -U pip[0m
+[1m[90m[DEBUG][39m[0m:   	Ignoring "sys._home = value" override
+[1m[90m[DEBUG][39m[0m:   	[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0mRequirement already satisfied: pip in ./venv/lib/python3.11/site-packages (23.2.1)
+[1m[90m[DEBUG][39m[0m:   	[33mWARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pip/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pip/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pip/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pip/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/pip/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+[1m[90m[DEBUG][39m[0m:   	[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+[1m[INFO][0m:    Install Cython in case one of the modules needs it to build
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c venv/bin/pip install Cython[0m
+[1m[90m[DEBUG][39m[0m:   	Ignoring "sys._home = value" override
+[1m[90m[DEBUG][39m[0m:   	[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0mCould not fetch URL https://pypi.org/simple/cython/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/cython/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+[1m[90m[DEBUG][39m[0m:   	[31mERROR: Could not find a version that satisfies the requirement Cython (from versions: none)[0m[31m
+[1m[90m[DEBUG][39m[0m:   	[0m[31mERROR: No matching distribution found for Cython[0m[31m
+[1m[90m[DEBUG][39m[0m:   	[0m[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[1m[90m[DEBUG][39m[0m:   	[0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+Exception in thread background thread for pid 6045:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash -c 'venv/bin/pip install Cython'
+
+  STDOUT:
+Ignoring "sys._home = value" override
+[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0mCould not fetch URL https://pypi.org/simple/cython/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/cython/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+[31mERROR: Could not find a version that satisfies the requirement Cython (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for Cython[0m[31m
+[0m[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+
+
+  STDERR:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1256, in <module>
+    main()
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+    ToolchainCL()
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 685, in __init__
+    getattr(self, command)(args)
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 104, in wrapper_func
+    build_dist_from_args(ctx, dist, args)
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 163, in build_dist_from_args
+    build_recipes(build_order, python_modules, ctx,
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 528, in build_recipes
+    run_pymodules_install(
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 713, in run_pymodules_install
+    shprint(sh.bash, '-c', (
+  File "/home/kali/CODE/E59_eventHandler/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 167, in shprint
+    for line in output:
+                ^^^^^^
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 915, in next
+    self.wait()
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/kali/CODE/E59_eventHandler/myenv/lib/python3.12/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash -c 'venv/bin/pip install Cython'
+
+  STDOUT:
+Ignoring "sys._home = value" override
+[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError("Can't connect to HTTPS URL because the SSL module is not available.")': /simple/cython/[0m[33m
+[0mCould not fetch URL https://pypi.org/simple/cython/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/cython/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+[31mERROR: Could not find a version that satisfies the requirement Cython (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for Cython[0m[31m
+[0m[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
+[0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
+
+
+  STDERR:
+
